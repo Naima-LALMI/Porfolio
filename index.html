@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Porfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta type="description" content="Ceci est mon portfolio étudiante" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link href="styles/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="boxed">
+        <div class="flex aligncenter space-between">
+          <button onclick="openMenu()" class="header-menu-mobile">
+            <span class="material-icons">menu</span>
+          </button>
+          <a href="/" class="header-logo">
+            <img src="IMAGE/algorithme-logo.png" />
+          </a>
+          <ul class="header-menu">
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#skills-nav">Compétences</a></li>
+            <li><a href="#projets">Réalisations</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <div id="home" class="slider">
+      <img src="IMAGE/istockphoto-1282643735-1024x1024.jpg" class="slider-background" />
+      <div class="slider-content">
+        <h1>Naïma LALMI</h1>
+        <p>Je suis développeuse en formation full-stack</p>
+      </div>
+    </div>
+
+    <div id="about" class="section background-white">
+      <div class="boxed">
+        <div class="flex toColumn mCenter">
+          <div class="w40 wm100">
+            <h2 class="vertical-text">À propos de moi</h2>
+          </div>
+          <div class="w60 wm100">
+            <p>Après une carrière enrichissante comme assistante dentaire 🦷, j'ai décidé de me lancer dans le domaine de la Tech en janvier 2024 🚀 chez ADA TECH SCHOOL.</p>
+            <p>Actuellement en formation à Paris pour devenir développeuse d'applications, je me spécialise dans les fondamentaux du JavaScript et explore de nouveaux langages comme Vue.js et Laravel.</p>
+            <p>Intéresée par le domaine de la Medtech , je suis également ouverte à d'autres opportunités. J'aime partager des moments en famille, cuisiner, et découvrir de nouveaux lieux à Paris.</p>
+            <p>Enthousiaste et créative, je cherche à intégrer une entreprise avec un esprit familial, participatif et axé sur le TechForGood. Je suis particulièrement intéressée par les projets où le succès de l'application dépend de la contribution active des utilisateurs pour répondre à des besoins réels et avoir un impact positif. </p>
+            <p>N'hésitez pas à me contacter pour discuter de potentielles collaborations ou simplement échanger des idées !</p>
+        </div>
+      </div>
+
+      <div id= "skills-nav" class="section background-cream">
+        <div class="boxed text-center">
+          <h2>Découvrez mes compétences</h2>
+          <div class="flex toColumn gap20">
+            <div class="w25 wm100 skill">
+              <img src="IMAGE/html-logo.png" />
+              <h3>HTML</h3>
+            </div>
+            <div class="w25 wm100 skill">
+              <img src="IMAGE/js-flat.png" />
+              <h3>JAVASCRIPT</h3>
+            </div>
+            <div class="w25 wm100 skill">
+              <img src="IMAGE/css-logo.png" />
+              <h3>CSS</h3>
+            </div>
+            <div class="w25 wm100 skill">
+              <img src="IMAGE/sql-server-flat.png" />
+              <h3>SQL</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="projets"class="section background-white">
+      <div class="boxed text-center">
+        <h2>Mes réalisations</h2>
+        <div class="flex gap20 space-between">
+          <div class="w32 wm50 realisation">
+            <a
+              target="_blank"
+              href="https://github.com/Naima-LALMI/dataviz-meteo-japon"
+            >
+              <img src="IMAGE/Capture projet dataViz.png" />
+              <h3>Météo du Japon</h3>
+            </a>
+          </div>
+          <div class="w32 wm50 realisation">
+            <a href="https://github.com/Naima-LALMI/COWORKING">
+              <img src="IMAGE/Capture projet coworking.png" />
+              <h3>Coworking à Paris</h3>
+            </a>
+          </div>
+          <div class="w32 wm50 realisation">
+            <a href="https://github.com/Naima-LALMI/COWORKING">
+              <img src="IMAGE/photoProjetExemple.png" />
+              <h3>Coworking V2</h3>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact" class="section background-cream">
+      <div class="boxed text-center">
+        <h2>Contactez-moi</h2>
+        <p>Envie de discuter de projets ? Contactez-moi pour échanger !</p>
+        <div class="flex toColumn space-between mgap20">
+          <div class="w32 wm100 contact">
+            <a href="mailto:naima.lalmi28@gmail.com" class="material-icons icon"
+              >mail</a
+            >
+          </div>
+
+          <div class="w32 wm100 contact">
+            <a target="_blank" href="https://github.com/Naima-LALMI">
+              <img src="IMAGE/github.png"
+            /></a>
+          </div>
+
+          <div class="w32 wm100 contact">
+            <a target="_blank" href="https://www.linkedin.com/in/naima-lalmi"
+              ><img src="IMAGE/linkedin .png"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="js/app.js"></script>
+</html>
