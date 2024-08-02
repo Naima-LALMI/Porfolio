@@ -16,7 +16,7 @@ body {
   background-size: contain; /* Ajuste l'image pour qu'elle soit entièrement visible */
   background-repeat: no-repeat; /* Évite la répétition de l'image */
   background-position: center; /* Centre l'image */
-  background-color: black; /* Couleur de fond pour éviter les bordures noires */
+  background-color: white; /* Couleur de fond pour éviter les bordures noires */
   position: relative;
 }
 
