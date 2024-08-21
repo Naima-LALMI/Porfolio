@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Porfolio</title>
+    <title>Porfolio de Naima LALMI</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta type="description" content="Ceci est mon portfolio étudiante" />
+    <meta name="description" content="Portfolio de Naima LALMI, étudiante en développement d'applications" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
@@ -17,12 +17,13 @@
     <header>
       <div class="boxed">
         <div class="flex aligncenter space-between">
-          <button onclick="openMenu()" class="header-menu-mobile">
+          <button aria-label="Ouvrir le menu" onclick="openMenu()" class="header-menu-mobile">
             <span class="material-icons">menu</span>
           </button>
           <a href="/" class="header-logo">
-            <img src="IMAGE/algorithme-logo.png" />
+            <img src="IMAGE/algorithme-logo.png" alt="Logo du site" >
           </a>
+          <nav>
           <ul class="header-menu">
             <li><a href="#home">Accueil</a></li>
             <li><a href="#about">À propos</a></li>
@@ -30,6 +31,7 @@
             <li><a href="#projets">Réalisations</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
+        </nav>
         </div>
       </div>
     </header>
